@@ -7,7 +7,7 @@
     "benchmark": "flexran",
     "controller": {
         "pre-script" : "%bench-dir%/flexran-setup-env",
-        "post-script": "%bench-dir%flexran-post-process"
+        "post-script": "%bench-dir%flexran-post-process.py"
     },
     "client": {
         "files-from-controller": [
